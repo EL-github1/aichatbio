@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "AIChatBio",
+  "version": "0.1.0",
+  "license": "Private",
+  "scripts": {
+    "build-dev": "node build.mjs",
+    "build-prod": "node build.mjs --create-zips --update-version",
+    "build-prod-min": "node build.mjs --create-zips --update-version --minify",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "watch": "chokidar src -c \"npm run build-dev\""
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.4.2",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "classnames": "^2.5.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@types/chrome": "^0.0.268",
+    "@types/jest": "^29.5.12",
+    "@types/lodash-es": "^4.17.6",
+    "daisyui": "^2.47.0",
+    "esbuild": "^0.16.17",
+    "esbuild-copy-files-plugin": "^1.1.0",
+  }
+}
