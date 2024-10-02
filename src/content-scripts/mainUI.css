@@ -1,0 +1,136 @@
+.cb-toolbar {
+    margin: 0.5em 0em;
+    display: flex;
+    align-items: end;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.cb-toggle {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5em 0;
+}
+
+.cb-toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 8px;
+    width: 29px;
+    height: 16px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+.web-chatgpt-toggle-switch:before,
+.web-chatgpt-toggle-switch:after {
+    content: "";
+}
+
+.web-chatgpt-toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.25);
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.25s;
+}
+
+
+.web-chatgpt-toggle:hover .web-chatgpt-toggle-switch:before {
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.web-chatgpt-toggle-checkbox:checked+.web-chatgpt-toggle-switch {
+    background: #10A37F;
+}
+
+/* New Toggle Switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px; /* Make the slider capsule-shaped */
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%; /* Make the thumb circular */
+    transition: transform 0.2s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(30px); /* Adjust this value to match the slider width */
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+/* Google Material Design Icons */
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Material Icons"),
+        url("chrome-extension://__MSG_@@extension_id__/icons/MaterialIcons-Regular.woff2") format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    align-self: center;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
