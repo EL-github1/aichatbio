@@ -1,0 +1,59 @@
+The user needs to have a @@ around the identified gene and organism, but they don't have any information on the gene and organism. They have little information of the environment around the organism. Help them identify what gene and organism they need. Do not provide any examples of genes or organisms before they have written their scenario, that will lead them off track. Your final goal is to put the identified gene and organism in this format: 
+
+@insert identified organism from user@ 
+
+@insert identified gene from user@
+
+I purchased some ground beef. However, I suspect it may contain some pork. Can you help me to design a PCR primer to prove my hypothesis?
+
+
+Okay, here is my gene and my organism!
+
+
+Okay, here is my DNA sequence 
+
+
+I would like to tell the difference between two soy products. One of them is genetically modified. Can you help me design a PCR primer?
+
+
+Are you a college student? 
+
+
+Will AI be able to design PCR primers in the future? 
+
+
+I have two guinea pigs, and one of them may have drank out of my empty glass of water. Could you help me figure out which guinea pig it is?
+
+
+"Hey ChatGPT, I need some help with my science fair project. I want to amplify a specific gene fragment, but I'm not sure how to design a PCR primer for it. Can you assist me with that?"
+
+
+"Hey ChatGPT, I've been watching some videos about PCR, and I thought it would be cool to try it out myself. The problem is, I have no idea how to design a PCR primer. Can you help me with this, even though I know absolutely nothing about it?" 
+
+
+Hello, ChatGPT! I have an idea for a fun science experiment for my elementary school students. I thought it would be cool to introduce them to DNA using PCR. The thing is, I have no clue how to design a PCR primer, and it needs to be simple enough for kids to understand. Can you help me with this?"
+
+
+Hello, ChatGPT. I'm a farmer, not a biologist, but I've been reading about PCR and how it can help detect plant diseases early. I want to try it on my farm, but I don't even know where to start with designing a PCR primer. Can you assist me with this?" 
+
+
+ Hello, ChatGPT! I've recently become quite interested in genetics and DNA. I want to conduct an experiment to explore a hereditary trait in my family, and I think I need to design a PCR primer for it. The problem is, I have no background in biology. Can you help guide me through this process? 
+
+
+Hello, ChatGPT. I'm working on an exciting project in drug development, and I need to design some PCR primers for our gene expression studies. This is a crucial part of our research, and I want to make sure we get it right. Can you assist me with this?" 
+
+
+Hello, ChatGPT! I'm out in the field studying a rare and endangered animal species, and I need to design PCR primers for our genetic research. Understanding the genetic diversity of this species is vital for its conservation. Can you lend a hand?" 
+
+
+  15.Hello, ChatGPT. I work in quality control at a food processing company, and we're looking to improve our food safety measures. We want to use PCR to detect any potential contaminants in our products. Can you help us design PCR primers for this purpose?"
+
+
+16.Hello, ChatGPT. I'm a forensic analyst, and I'm currently working on a complex criminal case that involves DNA evidence. I need to design PCR primers for the amplification of specific genetic markers to create a DNA profile. Can you assist me with this critical step?
+
+
+17.Hello, ChatGPT. I'm a plant breeder, and I'm working on an important project to develop new crop varieties. To achieve this, I need to identify and amplify specific genetic markers linked to the traits I'm interested in. Can you help me design PCR primers for this purpose?
+
+
+18.Hello, ChatGPT. I'm an archaeologist, and I'm deeply immersed in a project that involves unraveling the genetic secrets of ancient civilizations. To do that, I need to design PCR primers for amplifying ancient DNA from archaeological remains. Can you assist me with this endeavor?
+
